@@ -29,7 +29,6 @@ app.use(express.json())
 app.use(cookieParser())
 
 const PORT = process.env.PORT || 3500;
-app.set("view engine", "ejs");
 
 // Connect Database
 connectDB()
@@ -46,11 +45,9 @@ app.use(helmet())
 // Prevent XSS attacks
 app.use(xssClean())
 
-app.get("/", (req, res) => {
-  res.render("index");
-});
-
 // Use Routes
+app.use('/', express.static(path.join(__dirname, 'public')))
+app.use('/', require('./routes/root'))
 app.use('/api/users', userRoutes)
 app.use('/api/artists', artistRoutes)
 app.use('/api/albums', albumRoutes)
@@ -60,7 +57,10 @@ app.use('/api/auth', authRoutes)
 
 app.all('*', (req, res) => {
   res.status(404)
-if (req.accepts('json')) {
+  if (req.accepts('html')) {
+    res.sendFile(path.join(__dirname, 'views/404.html'))
+  }
+  else if (req.accepts('json')) {
       res.json({message: 'Requested resource not found.'})
   } else {
       res.type('txt').send('Requested resource not found.')
