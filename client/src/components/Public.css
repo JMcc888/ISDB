@@ -1,0 +1,79 @@
+.index-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.index-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    /* height: 50vh; */
+    padding: 2rem;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.index-landing-title {
+    font-size: 2.8rem;
+}
+
+.index-landing-button {
+    width: 10rem;
+    align-self: center;
+    padding: 0.5rem;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+}
+
+.index-settings-button {
+    width: 10rem;
+    align-self: center;
+    padding: 0.5rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+
+.index-landing-button:hover,
+.index-landing-button:active {
+    background-color: darkorange;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .index-landing {
+        padding: 0.5rem;
+        margin-top: 0;
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .index-landing p {
+        font-size: 1.3rem;
+    }
+
+    .index-landing h1 {
+        font-size: 1.8rem;
+        margin-top: 5rem;
+    }
+
+    .index-settings-button {
+        margin-top: 5rem;
+    }
+}

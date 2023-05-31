@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "6418bbefff68c128d6d6d762",
+        "title": "Stankonia",
+        "artistId": "6405ffe340413674c0052772",
+        "artistOwnerID": "641c8fbd88fc8c97e48f7905",
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/OutKast_-_Stankonia.JPG",
+        "isSingle": false
+    },
+    {
+        "_id": "64190e0e2a2ad48d3ef96f61",
+        "title": "Speakerboxxx/The Love Below",
+        "artistId": "6405ffe340413674c0052772",
+        "artistOwnerID": "641c8fbd88fc8c97e48f7905",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/47/Outkast-speakerboxx-lov…",
+        "isSingle": false
+    },
+    {
+        "_id": "64190e4c2a2ad48d3ef96f64",
+        "title": "Aquemini",
+        "artistId": "6405ffe340413674c0052772",
+        "artistOwnerID": "641c8fbd88fc8c97e48f7905",
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/2c/AqueminiOutKast.jpg",
+        "isSingle": false
+    },
+    {
+        "_id": "64191436ae7dfb4e378cb117",
+        "title": "Badfish",
+        "artistId": "6405ffdd70f06e19874b3e4d",
+        "artistOwnerID": "641c8fbd88fc8c97e48f7905",
+        "image": "https://upload.wikimedia.org/wikipedia/en/7/72/Sublime_Badfish.jpg",
+        "isSingle": true
+    },
+    {
+        "_id": "64191462ae7dfb4e378cb119",
+        "title": "40 oz. To Freedom",
+        "artistId": "6405ffdd70f06e19874b3e4d",
+        "artistOwnerID": "641c8fbd88fc8c97e48f7905",
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/57/Sublime40OztoFreedomalb…",
+        "isSingle": false
+    }
+]

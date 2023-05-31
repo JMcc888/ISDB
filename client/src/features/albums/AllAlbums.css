@@ -1,0 +1,97 @@
+.collections-albums h1 {
+    color: red
+}
+
+.collections-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: yellow;
+    min-height: 0;
+}
+
+.albums-list-item-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.collections-albums-header p {
+    font-size: 1.2rem;
+}
+
+.wrap-test {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.singles-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.collections-albums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkorange;
+    color: white;
+    width: 15rem;
+    height: 15rem;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+
+.collections-albums img,
+.collections-singles img,
+.wrap-test img {
+    width: 200px;
+    height: 200px;
+}
+
+.collections-albums-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.collections-albums-header-wrap,
+.singles-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.collections-singles {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.singles-wrap h2,
+.collections-albums-header h2 {
+    font-weight: 200;
+}
+
+@media screen and (max-width: 600px) {
+    .collections-albums-header{
+        margin-top: 2rem;
+        width: 80%;
+    }
+
+    .data-wrap-heading {
+        width: 70%;
+    }
+}

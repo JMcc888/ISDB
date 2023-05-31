@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.4.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-session": "^1.17.3",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.3.5",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^7.1.2",
+    "xss-clean": "^0.1.1"
+  },
+  "name": "testing-grounds",
+  "description": "**New and Improved Testing Grounds**",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMcc888/Testing-Grounds.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "set NODE_ENV=production && node app",
+    "dev": "nodemon server"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "me-mine",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.1.3"
+  }
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "_id": "641916a6a39d0f63a51653af",
+        "title": "40 oz. To Freedom",
+        "artistId": "6405ffdd70f06e19874b3e4d",
+        "albumId": "64191462ae7dfb4e378cb119",
+        "songLine": "Some Beer Line I think",
+        "recorded": 1990,
+        "billboardPeak": 0
+    },
+    {
+        "_id": "6419167bb92b0a30584276c4",
+        "title": "Badfish",
+        "artistId": "6405ffdd70f06e19874b3e4d",
+        "albumId": "64191436ae7dfb4e378cb117",
+        "songLine": "Lord knows I'm weak, won't somebody get me off of this reef?",
+        "recorded": 1990,
+        "billboardPeak": 0
+    }
+]

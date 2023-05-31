@@ -1,0 +1,54 @@
+.album-info-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.album-info-wrap img{
+    min-height: 20rem;
+    min-width: 20rem;
+    max-height: 20rem;
+    max-width: 20rem;
+}
+
+.album-title {
+    font-size: 3rem;
+}
+
+.album-info-wrap button {
+    width: 10rem;
+    padding: 0.5rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+}
+
+a {
+    color: #FD6600;
+}
+
+.album-title-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .album-title {
+    margin-top: 5.3rem;
+    font-size: 1.8rem;
+    }
+
+    .album-title-wrap {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .album-title {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,88 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+html {
+  background-color: rgb(254, 204, 152);
+}
+
+.delete-button {
+  width: 10rem;
+    padding: 0.5rem;
+    background-color: rgb(212, 16, 16);
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.required::after {
+  content:" *";
+  color: red;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .delete-button {
+    margin-top: 5rem;
+  }
+}
+
+.errmsg {
+  padding: 0.2rem;
+  background-color: blanchedalmond;
+  color: red;
+  margin-bottom: 0.3rem;
+}
+
+.error-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.content {
+  min-height: 100vh;
+}
+
+.footer {
+  font-size: 1rem;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background-color: darkblue;
+  padding: 0.5rem;
+  border-top: 1px solid white;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  gap: 1em;
+}
+
+footer button {
+  padding: 0.2rem;
+    background-color: darkred;
+    color: white;
+    border-radius: 10%;
+    font-size: 1rem;
+}

@@ -1,0 +1,31 @@
+.artist-list-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artist-list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    height: 15rem;
+    background-color: rgb(253, 127, 0);
+    border-radius: 10%;
+    width: 15rem;
+    font-size: 1rem;
+    color: white;
+}
+
+.artist-list-photo {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    .artist-list-item {
+        margin: 1rem;
+    }
+}

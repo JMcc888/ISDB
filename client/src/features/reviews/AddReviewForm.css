@@ -1,0 +1,89 @@
+.add-review-form-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.add-review-form-wrap h1 {
+    font-weight: 200;
+    color: rgb(1, 3, 119);
+}
+
+.add-review-form {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    padding: 1rem;
+    border-radius: 2rem;
+    margin-top: 0.5rem;
+}
+
+.add-review-form span {
+    color: darkorange;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.1rem;
+}
+
+.add-review-form button {
+    width: 50%;
+    align-self: center;
+    padding: 0.5rem;
+    background-color: darkblue;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.form-button:hover,
+.form-button:active {
+    background-color: blue;
+    color: white;
+}
+
+.add-review-form-input,
+textarea 
+ {
+    padding: 0.5rem;
+    font-size: 1.0rem;
+    width: 27rem;
+}
+
+.add-review-form-active {
+    margin-bottom: 0.2rem;
+}
+
+
+.add-review-form textarea {
+    margin-bottom: 0.2rem;
+}
+
+.review-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .add-review-form {
+        width: 25rem;
+    }
+
+    .add-review-title {
+        margin-top: 5rem;
+        font-size: 2rem;
+    }
+
+    .add-review-form-input,
+    .add-review-form textarea {
+        width: 22rem;
+    }
+}

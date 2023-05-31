@@ -1,0 +1,39 @@
+.songinfo-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-title {
+    margin-top: 5.4rem;
+}
+
+.songinfo-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.song-line {
+    color: grey;
+    font-style: italic;
+    font-weight: 100;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .songinfo-header {
+        width: 95%;
+    }
+    .song-title {
+        font-size: 2.2rem;
+    }
+
+    .song-line {
+        font-size: 1.2rem;
+    }
+
+}

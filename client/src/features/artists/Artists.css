@@ -1,0 +1,39 @@
+.data-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-wrap-heading {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.new-artist-button {
+    width: 10rem;
+    padding: 0.5rem;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    margin-top: 0.4rem;
+}
+
+.new-artist-button:active,
+.new-artist-button:hover {
+    background-color: seagreen;
+}
+
+@media screen and (max-width: 600px) {
+    .data-wrap-artist-count{
+        margin-top: 5.5rem;
+    }
+
+    .data-wrap-heading {
+        width: 70%;
+    }
+}
